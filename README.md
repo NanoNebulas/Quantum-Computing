@@ -4,6 +4,11 @@ https://youtu.be/tYLuUWU1fuY
 perl PDL code to simulate Quantum Computing using a Electron
 
 The Simulator is zerologix.pl make sure you have pdl and opengl installed.
+enter first qubit 1 0 -1 -0
+enter second qubit 1 0 -1 -0
+enter operator 2 = and 4 = or 6 = nand 8 = nor;
+See the superpositions with the Electron and the logic answer for your calculation.
+
 
 
 First we have the electron code so we have a good visual of the Electron
