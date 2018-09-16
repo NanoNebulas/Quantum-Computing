@@ -3,6 +3,9 @@
 https://youtu.be/tYLuUWU1fuY
 perl PDL code to simulate Quantum Computing using a Electron
 
+The Simulator is zerologix.pl make sure you have pdl and opengl installed.
+
+
 First we have the electron code so we have a good visual of the Electron
 as well as the Mass Length Time and Current, there are 6 superpositions
 because of the spin we will use .. 1 0 -1 and [1 and 0 and -1] or -0
