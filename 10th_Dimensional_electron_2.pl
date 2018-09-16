@@ -49,13 +49,13 @@ $zz = $y*$z;
 
 
 
-   #    4Dimensional  6Dimensional
+   #    5Dimensional  
   
  +points3d[-$x+2,-$y+2,-$z+2],   [$b,$g,$r]; ## electron
  #+points3d[$x,$y,$z],   [$b,$r,$g]; ## positron
  hold3d(); 
- #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$r,$g]; ## 6th Dimensional electron 
- #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6th Dimensional positron 
+ #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$r,$g]; ## 5th Anti-Dimensional electron 
+ #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 5th Anti Dimensional positron 
  #release3d();
 
   +points3d[$x-2,$z-2,$y-2],   [$b,$g,$r]; ## electron
@@ -65,22 +65,22 @@ $zz = $y*$z;
 
     +points3d[$y-4,$x-4,$z-4],   [$b,$g,$r]; ## electron
  hold3d(); 
- #+points3d[$y*$g,$x*$b,$z*$r],   [$b,$r,$g]; ## 6th Dimensional electron 
+ #+points3d[$y*$g,$x*$b,$z*$r],   [$b,$r,$g]; ## 5th Dimensional electron 
  #release3d();  
 
   +points3d[$y+4,$z+4,$x+4],   [$b,$g,$r]; ## electron
  hold3d(); 
- #+points3d[$y*$g,$z*$r,$x*$b],   [$b,$r,$g]; ## 6th Dimensional electron 
+ #+points3d[$y*$g,$z*$r,$x*$b],   [$b,$r,$g]; ## 5th Dimensional electron 
  #release3d();  
 
   +points3d[$z+6,$x+6,$y+6],   [$b,$g,$r]; ## electron
  hold3d(); 
- #+points3d[$z*$r,$x*$b,$y*$g],   [$b,$r,$g]; ## 6th Dimensional electron 
+ #+points3d[$z*$r,$x*$b,$y*$g],   [$b,$r,$g]; ## 5th Dimensional electron 
  #release3d(); 
   
  +points3d[$z-6,$y-6,$x-6],   [$b,$g,$r]; ## electron
  hold3d(); 
- #+points3d[$z*$r,$y*$g,$x*$b],   [$b,$r,$g]; ## 6th Dimensional electron 
+ #+points3d[$z*$r,$y*$g,$x*$b],   [$b,$r,$g]; ## 5th Dimensional electron 
    +points3d[$z,$y,$x],   [$b,$g,$r]; ## electron
    +points3d[$z,$x,$y],   [$b,$g,$r]; #
    +points3d[$y,$z,$x],   [$b,$g,$r]; ## electron
@@ -134,7 +134,7 @@ $zz = $y*$z;
 ##  inductance = [M] * [L**2] * [T**-2] * [I**-2]
 
 
-        #  4Dimensional     6Dimensional
+        #  5Dimensional     
  #points3d[$xx,$yy,$zz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
 ######################################################################################################## 
   #$uu = ($x*$y*$z);
