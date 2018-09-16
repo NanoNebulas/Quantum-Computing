@@ -25,4 +25,11 @@ because of the spin we will use .. 1 0 -1 and [1 and 0 and -1] or -0
 8. We have two ways of looking at this, a practical (many electrons view)
    and a single electron view 
    
+9. We need to think about how to use gates to change one to the other, and then
+    store it permanently
+    
+10 the idea is to use a Mirror with infared Magnetic Resistance to achive entanglement
+   and data storage.
+    
+   
    
