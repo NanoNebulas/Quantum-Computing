@@ -29,8 +29,8 @@
     elsif ( ($in == '-1') && ($in2 == '-0') && ($in3 == '6')) {  $www = '-1'; }
     elsif ( ($in == '-1') && ($in2 == '-0') && ($in3 == '8')) { $www = '-0'; }
 
-    print "Answer ",$www," ",$in3,"\n";   
-
+    print "Answer ",$www," ",$in3,"\n";   goto here; there: undef $www; redo }
+here:
     use PDL;
 use PDL::Graphics::TriD;
 use PDL::Math; 
@@ -44,7 +44,7 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
 
  for (;;){
     $c = 400;
- for $phase(1..360) {
+ for $phase(1..1) {
  $phase = $phase*0.0000001;
  $frequency = ($c**-1);
  $n=6.28*$c*$frequency+($phase);
@@ -97,5 +97,5 @@ $zz = $y*$z;
  release3d();
  release3d();
  release3d();
-   keeptwiddling3d; <stdin> }
-      }}   undef $www; redo }
+   keeptwiddling3d;  <stdin>; } goto there;
+      }}  
