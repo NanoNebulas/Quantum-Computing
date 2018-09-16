@@ -1,4 +1,6 @@
 # Quantum-Computing
+
+https://youtu.be/tYLuUWU1fuY
 perl PDL code to simulate Quantum Computing using a Electron
 
 First we have the electron code so we have a good visual of the Electron
