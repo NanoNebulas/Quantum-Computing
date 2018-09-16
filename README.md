@@ -21,3 +21,8 @@ because of the spin we will use .. 1 0 -1 and [1 and 0 and -1] or -0
    
 5. In that sense we have our north south negative and positive electron
 6. to use for 1 positive north 0 positive south  -1 negative north -0 negative south
+7. The spin here is important North or South and it is magnetic.
+8. We have two ways of looking at this, a practical (many electrons view)
+   and a single electron view 
+   
+   
