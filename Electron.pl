@@ -39,10 +39,10 @@ $z = $g*sin($q);  ### cos
 
  
 
- +points3d[$x,$y,$z],  [$b,$g,$r]; ##  4th Dimensional electron
+ +points3d[$x,$y,$z],  [$b,$g,$r]; ##  5th Dimensional electron
   
  
- #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6th Dimensional electron 
+ #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 5th Anti-Dimensional position 
 
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
   print $radius," radius ","\n";
