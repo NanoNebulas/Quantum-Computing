@@ -81,6 +81,14 @@ $zz = $y*$z;
  +points3d[$z-6,$y-6,$x-6],   [$b,$g,$r]; ## electron
  hold3d(); 
  #+points3d[$z*$r,$y*$g,$x*$b],   [$b,$r,$g]; ## 6th Dimensional electron 
+   +points3d[$z,$y,$x],   [$b,$g,$r]; ## electron
+   +points3d[$z,$x,$y],   [$b,$g,$r]; #
+   +points3d[$y,$z,$x],   [$b,$g,$r]; ## electron
+   +points3d[$y,$x,$z],   [$b,$g,$r]; #
+   +points3d[$x,$z,$y],   [$b,$g,$r]; ## electron
+   +points3d[$x,$y,$z],   [$b,$g,$r]; #
+
+
   release3d(); 
   release3d(); 
   release3d(); 
