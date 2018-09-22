@@ -43,5 +43,5 @@ because of the spin we will use .. 1 0 -1 and [1 and 0 and -1] or -0
    
 11. The Silver Mirrors are our hard drive, with the right absorbtion frequency. 
     
-   
+ nanonebulas@gmail.com  
    
