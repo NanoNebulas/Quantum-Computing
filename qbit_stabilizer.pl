@@ -1,13 +1,5 @@
 
 
-#$x2 = $b*sin($q)+1;  ### cos   change the spin of the electron here
-#$y2 = $r*cos($q)+1;  ### sin
-#$z2 = $g*sin($q)+1;  ### cos
-
-#$x1 = $b*sin($q)-1;  ### cos   change the spin of the electron here
-#$y2 = $r*cos($q)-1;  ### sin
-#$z3 = $g*sin($q)-1;  ### cos
-
 
 $tt = 100;
 use PDL;
@@ -65,46 +57,16 @@ $zz = sin cos$z*$x*rvals($z*$x);
   $matrixb->range([4178],[4178]) .= $yy = 100*$yy;
   $matrixc->range([4178],[4178]) .= $zz = 100*$zz;
 
-#if ($tt <= 6) {
-# $matrixa->range([8356],[4178]) .= $x1 = 10*cos$x+sqrt($xx/($tt++))-$tt--;
-#  $matrixb->range([8356],[4178]) .= $y1 = 10*cos$y+sqrt($yy/($tt++))-$tt-- ;
-#  $matrixc->range([8356],[4178]) .= $z1 = 10*sin$z+sqrt($zz/($tt++))-$tt-- ;
-
-#   $matrixa->range([0],[4178]) .= $x2 = 10*sin$x+sqrt($xx/($tt++))-$tt-- ;
-#  $matrixb->range([0],[4178]) .= $y2 = 10*sin$y+sqrt($yy/($tt++))-$tt--;
-#  $matrixc->range([0],[4178]) .= $z2 = 10*cos$z+sqrt($zz/($tt++))-$tt--;
-
-#  $matrixa->range([12534],[4178]) .= $x = $x ;
-#  $matrixb->range([12534],[4178]) .= $y = $y;
-#  $matrixc->range([12534],[4178]) .= $z = $z;
 
 
 
-#}
 
-#if ($tt > 6) {
- # $matrixa->range([8356],[4178]) .= $x1 = -$x+sqrt($xx)-$tt-- ;
- # $matrixb->range([8356],[4178]) .= $y1 = -$y;
- # $matrixc->range([8356],[4178]) .= $z1 = -$z;
-
- #  $matrixa->range([0],[4178]) .= $x2 = -$x;
- # $matrixb->range([0],[4178]) .= $y2 = -$y;
- # $matrixc->range([0],[4178]) .= $z2 = -$z-sqrt($zz)+$tt--;
 
    $matrixa->range([12534],[4178]) .= $x = $x%$xx;
   $matrixb->range([12534],[4178]) .= $y = $y%$yy;
   $matrixc->range([12534],[4178]) .= $z  = $z%$zz;
 
 
-#}
-
-  $colora->range([8356],[4178]) .= $b ;
-  $colorb->range([8356],[4178]) .= $g ;
-  $colorc->range([8356],[4178]) .= $r ;
-
-  $colora->range([0],[4178]) .= $b ;
-  $colorb->range([0],[4178]) .= $g ;
-  $colorc->range([0],[4178]) .= $r ;
 
    $colora->range([12534],[4178]) .= $b ;
   $colorb->range([12534],[4178]) .= $g ;
