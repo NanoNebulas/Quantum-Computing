@@ -123,7 +123,7 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
  $cy= -1**$t*sin($t*$c);  ###   $t*sin($t*$c); 
  $cx= -1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
- ### 6Dimensional Geometry
+ ### 5Dimensional Geometry
  $w=$cz-$cy-$cx;
  $g=sin($w);
  $r=cos($cy+$c+$cz);
@@ -143,7 +143,7 @@ $zz = $y*$z;
 
 
 
-   #    4Dimensional  6Dimensional
+   #    5Dimensional 
   if ($www == '1') {
  +points3d[$x,$y,$z],   [$b,$g,$r]; } 
 
