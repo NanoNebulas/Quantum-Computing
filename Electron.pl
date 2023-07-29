@@ -17,12 +17,16 @@ $PDL::BIGPDL=1;
  $n= (6.28*$c*$frequency+($phase));
 
  $photons = 4178; ### [Density] 2444 4178
+  #$x = $c*rvals((zeros(9000))*$c);
+  #$cz = -1**$x*$c;
+  #$cy = -1**$x*sin$x*$c;
+  #$cx = -1**$c*rvals($x)*$c;
 
  
- $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
+ $t=rvals(zeros($photons));
  $cz=-1**$t*$c;
  $cy=-1**$t*sin($t*$c);
- $cx=-1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c; #-1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;
+ $cx=-1**$c*(rvals($t))*$c; 
  
  
  $w=$cz-$cy-$cx;
