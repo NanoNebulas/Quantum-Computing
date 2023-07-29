@@ -17,16 +17,26 @@ $PDL::BIGPDL=1;
  $n= (6.28*$c*$frequency+($phase));
 
  $photons = 4178; ### [Density] 2444 4178
-  #$x = $c*rvals((zeros(9000))*$c);
-  #$cz = -1**$x*$c;
-  #$cy = -1**$x*sin$x*$c;
-  #$cx = -1**$c*rvals($x)*$c;
-
+ ####################################################################
+ # $n = 6.28 * ++$c;
+ # $x = $c*rvals((zeros(9000))*$c);
+ # $cz = -1**$x*$c;
+ # $cy = -1**$x*sin$x*$c;
+ # $cx = -1**$c*rvals($x)*$c;
+ # $w = $cz-$cy-$cx;
+ # $g = sin($w);
+ # $r = cos($cy+$c+$cz);
+ # $b = cos($w);
+ # $i = ($cz-$cx-$cy);
+ # $q = $i*$n;
+ # points3d [ $b*sin($q), $r*cos($q), $g*sin$q], [$g,$b,$r];
+#################################################################
  
- $t=rvals(zeros($photons));
+
+ $t=rvals(exp(zeros($photons)));
  $cz=-1**$t*$c;
  $cy=-1**$t*sin($t*$c);
- $cx=-1**$c*(rvals($t))*$c; 
+ $cx=-1**$c*bessj0(rvals($t))*$c; #-1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
  
  $w=$cz-$cy-$cx;
