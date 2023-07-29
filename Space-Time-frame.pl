@@ -1,4 +1,4 @@
-
+### this code uses the electron code to try and reverse engineer a spacetime frame... 
 
 #$x2 = $b*sin($q)+1;  ### cos   change the spin of the electron here
 #$y2 = $r*cos($q)+1;  ### sin
