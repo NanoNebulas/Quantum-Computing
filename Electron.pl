@@ -3,7 +3,8 @@
 use PDL;
 use PDL::Complex;
 use PDL::Graphics::TriD;
-use PDL::Math; keeptwiddling3d;
+use PDL::Math; 
+nokeeptwiddling3d; ### use keeptwiddleing3d to press q to keep iteration going otherwise it will just stop
 $PDL::BIGPDL=1;
  ## remember this can crash the computer if you dont have enough RAM and swap in linux or pagefile in windows
 
