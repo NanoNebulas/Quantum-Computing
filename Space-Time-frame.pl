@@ -1,5 +1,8 @@
 ### this code uses the electron code to try and reverse engineer a spacetime frame like sand box ... might be very wrong ... 
-## the electron code however is solid and visually looks like the real electron without stroboscopic effect !!! https://youtu.be/ofp-OHIq6Wo
+## the electron code however is solid and visually looks like the real electron without stroboscopic effect !!!
+#  https://youtu.be/ofp-OHIq6Wo   ### the electron in real life 
+#  https://youtu.be/TKhokqmgFzI   ### the electron in simulation
+
 
 #$x2 = $b*sin($q)+1;  ### cos   change the spin of the electron here
 #$y2 = $r*cos($q)+1;  ### sin
